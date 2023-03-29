@@ -14,6 +14,10 @@ import io.restassured.http.ContentType;
 @SpringBootTest
 class LeaveApplicationTests {
 
+	@Test
+	void contextLoads() {
+	}
+
 	
 //	It will first get token then use this for application of leave then verify it with get request
 //	then update status then delete the data
